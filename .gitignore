@@ -1,0 +1,112 @@
+##############################
+## COMMON FILES
+##############################
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+*.log
+log.txt
+npm-debug.log*
+*~
+dist/
+bin/
+build/
+$RECYCLE.BIN/
+
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## Gradle
+##############################
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+tmp/
+.metadata
+.classpath
+.project
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
+
+# Compiled Python bytecode
+*.py[cod]
+
+# Unit test reports
+TEST*.xml
+
+# Applications
+*.app
+*.exe
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv

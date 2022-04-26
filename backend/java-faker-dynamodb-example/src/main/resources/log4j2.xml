@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{YYYY-MM-dd HH:mm} [%-5p] %c{0} - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+        <Logger name="com.hiperium.java.faker.dynamodb.example" level="INFO"/>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,34 @@
+<ion-header translucent="true" mode="ios">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Jobs by Location</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true" class="ion-padding">
+  <ion-list>
+    <ion-item *ngFor="let item of locations"
+              (click)="loadCompanies(item.pk)"
+              detail="true"
+              class="animate__animated animate__fadeIn"
+              style="cursor: pointer">
+      <ion-avatar slot="start">
+        <ion-img [src]="item.location.flagImageUrl" alt="Country Flag"></ion-img>
+      </ion-avatar>
+      <ion-label>{{ item.location.country }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list *ngIf="!locations">
+    <ion-item *ngFor="let hero of [1,1,1,1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" alt="Country Flag">
+      </ion-avatar>
+      <ion-label>
+        <ion-skeleton-text animated="true" style="width: 70%"></ion-skeleton-text>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

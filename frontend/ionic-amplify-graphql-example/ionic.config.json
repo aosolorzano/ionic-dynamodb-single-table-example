@@ -1,0 +1,7 @@
+{
+  "name": "ionic-amplify-graphql-example",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
