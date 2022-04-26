@@ -3,7 +3,7 @@ This project uses Amplify Framework to generate an AWS GraphQL API and a DynamoD
 
 ## Detailed components' creation/modification
 You can find more detail of the configurations and components coded in this project in the following post:
-[Using the Single Table design on AWS DynamoDB.]()
+[Using the Single Table design on AWS DynamoDB](https://aosolorzano.medium.com/using-the-single-table-design-on-aws-dynamodb-65a9480bd0c5).
 
 ## Requirements
 1. An AWS account.
